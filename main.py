@@ -37,6 +37,8 @@ botões = [
 def main(page: ft.Page):
     page.bgcolor = '#000' #background color
     page.window_resizable = False
+    page.window_maximizable = False# Bloqueia a maximização e tela cheia
+    page.window_full_screen = False  # Impede que a janela abra em tela cheia
     page.window_width = 250 #largura da janeja
     page.window_height = 350 #altura da janela
     page.title = 'Calculadora' #titulo da janela
